@@ -23,3 +23,14 @@ SecurityEvent
 | where EventID in (4625, 4740)
 | project TimeGenerated, EventID, TargetUserName, Computer
 | order by TimeGenerated desc
+
+---
+
+**Explanation:**
+The query searches the Security Event table for two important Windows Security events: failed logins (4625) and account lockouts (4740). It then displays useful investigation details such as the time of the event, the affected username, and the system where the activity occurred. By reviewing these events together in chronological order, analysts can identify patterns where repeated failed logins eventually result in an account being locked.
+
+
+---
+
+**Attacker Scenario:**
+An attacker attempts to access a user account by repeatedly trying incorrect passwords through remote login services such as RDP. After several failed attempts, the account reaches the organisation’s lockout threshold and becomes locked. This sequence of failed logins followed by a lockout can be an early sign of brute-force activity or automated password guessing against the account. 
