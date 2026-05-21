@@ -23,7 +23,7 @@ SecurityEvent
 | where EventID in (4625, 4740)
 | project TimeGenerated, EventID, TargetUserName, Computer
 | order by TimeGenerated desc
-
+```kql
 ---
 
 **Explanation:**
