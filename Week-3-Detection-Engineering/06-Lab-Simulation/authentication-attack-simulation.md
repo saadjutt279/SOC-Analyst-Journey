@@ -4,7 +4,7 @@
 
 ## 1. Human Error (Benign)
 
-### • Human Error (Benign)
+
 - Slow, random typos  
 - Caps Lock turned on/off  
 - Old depreciated passwords being used  
@@ -23,7 +23,7 @@ Benign/Noise
 
 ## 2. Slow Wrong Password Attempts (Low-and-Slow Attack)
 
-### • Slow Wrong Password Attempts (Low-and-Slow Attack)
+
 - 1 attempt per 30-60 seconds  
 - 10-20 attempts in total  
 
@@ -41,7 +41,7 @@ Medium / Suspicious
 
 ## 3. Brute Force (Rapid Single-Account Failures)
 
-### • Brute Force (Rapid Single-Account Failures)
+
 - 10-15 failures per minute  
 - Bursts of login attempts during different intervals  
 - Same User  
@@ -59,7 +59,7 @@ High confidence attack
 
 ## 4. Password Spray (Multiple Users, Same IP)
 
-### • Password Spray (Multiple Users, Same IP)
+
 - Same IP  
 - Many users  
 - Same password  
@@ -77,7 +77,7 @@ High confidence attack
 
 ## 5. System Noise (Background / Service Logins)
 
-### • System Noise (Background / Service Logins)
+
 - Service accounts retrying  
 - Mobile devices retry loops  
 - applications/Processes using old depreciated credentials  
