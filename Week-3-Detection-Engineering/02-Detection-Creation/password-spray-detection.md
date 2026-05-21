@@ -37,6 +37,6 @@ The KQL query is divided into different parts. “Event” is the table where al
 ---
 
 ## Attacker Scenario:
-
+This detection logic can be used when a malicious actor tries to access the account through a remote access (RDP) and has a different IP address than the actual system which is being hacked.
 
 
