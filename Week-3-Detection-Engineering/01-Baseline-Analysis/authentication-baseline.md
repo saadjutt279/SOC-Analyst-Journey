@@ -27,6 +27,8 @@ Single or 2 failed attempts show normal behavior, which was seen on multiple dif
 ### 4. System / service behaviour: 
 No clear service-account or automated authentication noise was observed during this analysis. 
 
+---
+
 ## Confidence level of baseline:
 Confidence level of baseline: Medium  
 Some patterns were shown of suspicious login attempts, but the IP and username were always same which could indicate a physical login attempt being failed multiple times due to password not being known to the person making the attempt.
