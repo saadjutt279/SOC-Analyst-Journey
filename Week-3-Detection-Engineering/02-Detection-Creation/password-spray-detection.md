@@ -27,9 +27,16 @@ SecurityEvent
 | where FailedAttempts >= 5
 | order by FailedAttempts desc
 ```
+
+---
+
 ## Explanation:
 
+The KQL query is divided into different parts. “Event” is the table where all the events are being stored. “where EventID == 4625” is the logic to get only those entries where login attempt was failed, “4625” is the failed login attempt code.  In “summarize FailedAttempts = count()”, all those entries in the Event table which has EventID as 4625 are being counted and that count is being stored in a variable named as “FailedAttempts”. Which is then grouped in a 5 minutes window and by difference of IP addresses, so all those attempts which happened in a certain period of time (5 Minutes) like a burst will be grouped together. Now from that, as the intent was to differentiate malicious attempt, all the groups with number of failed attempts being 5 or more than 5 will be shown and in a descending manner.
+
 ---
 
-##
----
+## Attacker Scenario:
+
+
+
