@@ -1,4 +1,4 @@
-**WORKSTREAM 1 — TICKET 1**
+# WORKSTREAM 1 — TICKET 1
 🧾 **Authentication Baseline (FOUNDATION)**
 
 **1. Normal user mistakes** 
