@@ -39,9 +39,6 @@ To check the internet connectivity of the system.
 Classification:
 Suspicious
 
-Classification:
-Suspicious
-
 Analysis:
 This powershell command is highly suspicious, where a lot of obfuscation techniques are being used through command line arguments.  -nop is used for No Profile, which means it will not open the user settings. -w hidden is used to hide window, which means whatever process is being run, it happens in the background without user seeing it on the screen. -enc is used to encode the message or payload in Base64 which means any payload or message is hidden from the system. 
 
