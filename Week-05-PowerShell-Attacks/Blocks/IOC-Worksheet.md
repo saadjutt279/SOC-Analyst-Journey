@@ -1,4 +1,3 @@
-```md id="ioc91"
 # IOC WORKSHEET
 
 ## Case 1
