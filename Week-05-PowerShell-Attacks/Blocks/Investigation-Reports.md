@@ -1,4 +1,3 @@
-```md id="ir92ks"
 # Investigation Reports
 
 ---
