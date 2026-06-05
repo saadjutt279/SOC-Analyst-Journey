@@ -33,4 +33,4 @@ Right to work in the UK (Graduate Visa, valid to March 2028)
 Microsoft Sentinel · KQL · Sysmon · Windows Event Logs · MITRE ATT&CK
 
 ## Contact
-[LinkedIn](YOUR-LINKEDIN-URL) | [Email](mailto:YOUR-EMAIL)
+[LinkedIn](www.linkedin.com/in/saad-zulfiqar-237716129) | [Email](mailto:chsaad279@gmail.com)
